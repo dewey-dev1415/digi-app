@@ -1,0 +1,6 @@
+.hand {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  max-height: 40px;
+}

@@ -1,0 +1,42 @@
+.card {
+  width: 40px;
+  height: 40px;
+}
+
+.card:hover {
+  width: 80px;
+  height: 80px;
+}
+
+.cardClicked {
+  width: 80px;
+  height: 80px;
+}
+
+/*
+TODO:
+I don´t like the idea of using two clases just for removing the hover, 
+Think in a way to just use one class for it
+*/
+.opponentCard {
+  width: 40px;
+  height: 40px;
+}
+
+.cardDatails {
+  display: flex;
+}
+.cardDetailsContainer {
+  width: 20%;
+  visibility: hidden;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+}
+
+.actions > div {
+  border-bottom: 1px solid black;
+}
